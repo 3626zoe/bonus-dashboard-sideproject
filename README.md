@@ -2,11 +2,15 @@
 A React-based dashboard for bonus prediction and allocation.  
 It supports CSV and Excel uploads, parses and visualizes data with **Recharts**, and enables clean data export.  
 Built with **Recharts, PapaParse, XLSX, and Lucide**, this project demonstrates expertise in **front-end development, data parsing, and interactive visualization**.
+
 ---
 ## Problem
+
 Enterprise bonus allocation processes are often manually computed using spreadsheets, leading to inefficiencies, inconsistent calculations, and limited data-driven insight.
+
 ---
 ## Solution
+
 - Built a client-side analytics system to process CSV/Excel sales data
 - Implemented data ingestion and normalization for heterogeneous transactional records
 - Designed a feature extraction pipeline to structure business-relevant insights
@@ -44,6 +48,7 @@ File Upload (CSV / Excel)
 → Rule-based Scoring (bonus prediction logic)  
 → Data Visualization (Recharts dashboard)  
 → Export (CSV download with processed results)
+
 ---
 ## Impact
 - Eliminates manual spreadsheet-based bonus calculation workflows
