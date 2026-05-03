@@ -6,21 +6,40 @@ Built with **Recharts, PapaParse, XLSX, and Lucide**, this project demonstrates 
 
 ---
 
-##  Features
-- Upload and parse **CSV/Excel** files
-- **Interactive dashboard** with annual overview
-- Dynamic bonus calculation and editing
-- Export cleaned data to **CSV/Excel**
-- Modern UI with **Lucide icons**
+## Problem
+Enterprise bonus allocation processes are often manually computed using spreadsheets, leading to inefficiencies, inconsistent calculations, and limited data-driven insight.
+
+---
+
+##  Solution
+- Built a client-side analytics system to process CSV/Excel sales data
+- Implemented data ingestion and normalization for heterogeneous transactional records
+- Designed a feature extraction pipeline to structure business-relevant insights
+- Developed rule-based logic for bonus prediction
+- Created interactive visualizations for data exploration
+- Enabled export functionality for processed results
 
 ---
 
 ##  Tech Stack
-- **React** – Front-end framework  
-- **Recharts** – Data visualization  
-- **PapaParse / XLSX** – Data parsing and file handling  
-- **Lucide** – Icons for UI clarity  
+- React 19
+- Recharts (data visualization)
+- PapaParse (CSV parsing)
+- SheetJS (Excel processing)
+- Lucide React (UI icons)
+- JavaScript (feature engineering & rule-based modeling)
+- CSS Grid + Custom Design System
 
+---
+## Key Features
+
+- Supports CSV and Excel file ingestion
+- Automatic schema normalization for inconsistent datasets
+- Feature engineering for 20+ business metrics per customer
+- Rule-based bonus prediction model
+- Real-time interactive dashboard (KPI + charts)
+- Budget reallocation with proportional scaling
+- Exportable structured results (CSV download)
 ---
 
 ##  Project Results
