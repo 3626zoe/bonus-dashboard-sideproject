@@ -1,17 +1,14 @@
-#  Bonus Prediction Dashboard
+# Bonus Prediction Dashboard
 
 A React-based dashboard for bonus prediction and allocation.  
 It supports CSV and Excel uploads, parses and visualizes data with **Recharts**, and enables clean data export.  
 Built with **Recharts, PapaParse, XLSX, and Lucide**, this project demonstrates expertise in **front-end development, data parsing, and interactive visualization**.
-
 ---
-
 ## Problem
 Enterprise bonus allocation processes are often manually computed using spreadsheets, leading to inefficiencies, inconsistent calculations, and limited data-driven insight.
-
 ---
 
-##  Solution
+## Solution
 - Built a client-side analytics system to process CSV/Excel sales data
 - Implemented data ingestion and normalization for heterogeneous transactional records
 - Designed a feature extraction pipeline to structure business-relevant insights
@@ -21,7 +18,7 @@ Enterprise bonus allocation processes are often manually computed using spreadsh
 
 ---
 
-##  Tech Stack
+## Tech Stack
 - React 19
 - Recharts (data visualization)
 - PapaParse (CSV parsing)
@@ -31,6 +28,7 @@ Enterprise bonus allocation processes are often manually computed using spreadsh
 - CSS Grid + Custom Design System
 
 ---
+
 ## Key Features
 
 - Supports CSV and Excel file ingestion
@@ -40,10 +38,33 @@ Enterprise bonus allocation processes are often manually computed using spreadsh
 - Real-time interactive dashboard (KPI + charts)
 - Budget reallocation with proportional scaling
 - Exportable structured results (CSV download)
+
+---
+
+## System Flow
+
+The system follows a client-side data processing pipeline:
+
+**Data Flow:**
+File Upload (CSV / Excel)  
+→ Data Parsing (PapaParse / SheetJS)  
+→ Data Normalization (schema alignment & type cleaning)  
+→ Feature Engineering (20+ business metrics per customer)  
+→ Rule-based Scoring (bonus prediction logic)  
+→ Data Visualization (Recharts dashboard)  
+→ Export (CSV download with processed results)
+
+---
+## Impact
+
+- Eliminates manual spreadsheet-based bonus calculation workflows
+- Enables automated processing of 10,000+ transactional records on the client side
+- Generates 20+ structured business features per customer in real time
+- Improves transparency of bonus allocation through interactive visualization
+- Reduces data preparation and analysis time from manual processing to near real-time workflow
 ---
 
 ##  Project Results
-
 ### 1. Dashboard Development
 - **Input & Data Merge**  
   Input the merged master table and annual sales data to generate the dashboard and default bonus amount.  
